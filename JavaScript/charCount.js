@@ -16,6 +16,13 @@ const charCount1 = (string) => {
 };
 console.log("charCount1 - ", charCount1(string));
 
-// * Method 2: <Add method summary>
-// const functionName2 = (param) => {};
-// console.log("<functionName>2 - ", functionName2(string));
+// * Method 2: .split + forEach + ternary operator
+const charCount2 = (string) => {
+  const stringArray = string.split("");
+  const charHolder = {};
+  stringArray.forEach((ele) => {
+    charHolder[ele] ? (charHolder[ele] += 1) : (charHolder[ele] = 1);
+  });
+  return charHolder;
+};
+console.log("charCount2 - ", charCount2(string));
