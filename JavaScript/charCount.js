@@ -1,6 +1,7 @@
 // TODO: Count Characters
 // In a given string, return an object with a count of each character
 const string = "aaaaabbbbcdddddeefff";
+// Output: { a: 5, b: 4, c: 1, d: 5, e: 2, f: 3 }
 
 // * Method 1: for loop + if/else
 const charCount1 = (string) => {

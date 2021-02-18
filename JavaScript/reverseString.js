@@ -1,6 +1,7 @@
 // TODO: Reverse String
 // Given a string, return the reverse of that string
 const string = "letterkenny";
+// Output: "ynnekrettel"
 
 // * Method 1: for + .join
 const reverseString1 = (string) => {

@@ -1,6 +1,7 @@
 // TODO: Vowel Count
 // Given a string, return the total number of vowels in the string
 const string = "All cows eat grass";
+// Output: 5
 
 // * Method 1: .split + for loop
 const vowelCount1 = (string) => {
