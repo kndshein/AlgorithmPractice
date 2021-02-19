@@ -3,7 +3,7 @@
 string = "What a wonderful day";
 # Output: "wonderful"
 
-# * Method 1: <Add method summary>
+# * Method 1: for loop + .count + .max_by
 def most_vowel1 string
     newString = string.downcase.split(" ")
     emptyObj = {}
