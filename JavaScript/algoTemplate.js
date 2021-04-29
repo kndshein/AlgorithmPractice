@@ -1,8 +1,9 @@
 // TODO: <Algorithm Title Here>
 // <A short description of the objective>
-// Provide parameters to test such as:
 const string = "examplestring";
+// Input: <example input here>
 // Output: <example output here>
+// Explanation: <explanation here>
 
 // * Method 1: <Add method summary>
 const functionName1 = (param) => {};
