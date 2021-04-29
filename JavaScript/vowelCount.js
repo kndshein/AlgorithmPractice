@@ -1,4 +1,5 @@
 // TODO: Vowel Count
+//* from General Assembly
 // Given a string, return the total number of vowels in the string
 const string = "All cows eat grass";
 // Output: 5

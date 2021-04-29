@@ -1,4 +1,5 @@
 // TODO: Length of Longest Balanced Subsequence
+//* from Binary Search
 // Given a string s containing brackets "(" and ")", return the length of the longest subsequence of balanced brackets.
 const string1 = "())(()";
 const string2 = "))((";
