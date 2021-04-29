@@ -9,9 +9,10 @@ class LLNode {
   }
 }
 
-let node = new LLNode(5, 3);
-node = node.next;
-node = new LLNode(3, 5);
+const node1 = new LLNode(5);
+const node2 = new LLNode(3, node1);
+const node3 = new LLNode(5, node2);
+
 // Input: node = 5-> 3 -> 5
 // Output: true
 // Explanation: 5 -> 3 -> 5 is a palindrome.
@@ -35,5 +36,5 @@ const palindromeLinkedList = (node) => {
   return arr.join("") === arr.reverse().join("");
 };
 
-palindromeLinkedList(node);
-// console.log("functionName1 - ", palindromeLinkedList(node));
+// palindromeLinkedList(node1);
+console.log("functionName1 - ", palindromeLinkedList(node3));
