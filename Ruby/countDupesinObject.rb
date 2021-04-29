@@ -1,4 +1,5 @@
 # TODO: Count Duplicates in Object
+# * from General Assembly
 # Given an array of objects of colors, return a new object that contains key names of each color and how many times they've been referenced.
 colorsArray = [
   { colors: ["blue", "purple", "red"] },
