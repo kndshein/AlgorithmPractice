@@ -37,7 +37,7 @@ const word2 = "xgz";
 // Output: false
 // Explanation: You can't make "xgz" going left-to-right or up-to-down.
 
-// * Method 1: <Add method summary>
+// * Method 1: Array + Nested For Loops + For Loop + If/Else + IndexOf
 const unidirectionalWordSearch = (board, word) => {
   let words = [];
 
