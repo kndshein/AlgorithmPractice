@@ -7,12 +7,12 @@ const string = "examplestring";
 // Output: <example output here>
 // Explanation: <explanation here>
 
-// * Method 1: <Add method summary>
+// * Method 1
 const functionName1 = (param) => {};
 
 console.log("functionName1 - ", functionName1(string));
 
-// * Method 2: <Add method summary>
+// * Method 2
 const functionName2 = (param) => {};
 
 console.log("functionName2 - ", functionName2(string));
