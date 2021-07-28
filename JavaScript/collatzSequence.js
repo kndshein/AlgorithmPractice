@@ -28,3 +28,19 @@ const collatzSequence = (num) => {
 };
 
 console.log("collatzSequence - ", collatzSequence(num));
+
+// * Method 2
+const collatzSequence2 = (num) => {
+  let count = 1;
+  while (num !== 1) {
+    if (num % 2 === 0) {
+      num = num / 2;
+    } else {
+      num = 3 * num + 1;
+    }
+    count++;
+  }
+  return count;
+};
+
+console.log("collatzSequence2 - ", collatzSequence2(num));
